@@ -12,10 +12,12 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  
   }
 
   html, body, #root {
     width: 100%;
     height: 100%;
+    background-color: #BC8F8F;
   }
 `;
