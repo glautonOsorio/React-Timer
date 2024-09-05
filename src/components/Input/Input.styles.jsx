@@ -12,7 +12,7 @@ export const CheckboxLabel = styled.label`
   align-items: center;
   gap: 0.625rem;
   align-self: flex-start;
-  color: ${({ $color }) => ($color === "danger" ? "#d00000" : "#000")};
+  color: ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#000")};
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -34,8 +34,8 @@ export const Label = styled.label`
   align-items: flex-start;
   gap: 0.625rem;
   align-self: stretch;
-  color: ${({ $color }) => ($color === "danger" ? "#d00000" : "#000")};
-  font-size: 1rem;
+  color: ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#FFF0F5")};
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -49,8 +49,8 @@ export const Input = styled.input`
   border-radius: 0.3125rem;
   font-size: 1rem;
   border: 1px solid
-    ${({ $color }) => ($color === "danger" ? "#d00000" : "#800080")};
-  color: ${({ $color }) => ($color === "danger" ? "#DC143C" : "#000")};
+    ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#800080")};
+  color: ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#800080")};
   width: 100%;
   height: 3rem;
 
@@ -64,8 +64,8 @@ export const TextArea = styled.textarea`
   align-self: stretch;
   border-radius: 0.3125rem;
   border: 1px solid
-    ${({ $color }) => ($color === "danger" ? "#d00000" : "#800080")};
-  color: ${({ $color }) => ($color === "danger" ? "#DC143C" : "#000")};
+    ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#800080")};
+  color: ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#000")};
   height: 6rem;
   overflow-y: auto;
 `;
@@ -85,14 +85,14 @@ export const Icon = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${({ $color }) => ($color === "danger" ? "#d00000" : "#800080")};
+  color: ${({ $color }) => ($color === "danger" ? "#FF69B4" : "#800080")};
 `;
 
 export const ErrorSpan = styled.span`
   position: absolute;
   bottom: 0.2rem;
   left: 0.2rem;
-  color: #d00000;
+  color: #ff69b4;
   font-size: 0.6rem;
   font-style: normal;
   font-weight: 600;

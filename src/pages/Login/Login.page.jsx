@@ -5,24 +5,24 @@ import { InputComponent } from "../../components/Input/Input.component.jsx";
 import { ButtonComponent } from "../../components/Button/Button.component.jsx";
 
 import * as Styled from "./Login.styled.jsx";
+import { useContext } from "react";
+import { AuthContext } from "../../contexts/Auth.context.jsx";
 
 export const LoginPage = () => {
+  const { login } = useContext(AuthContext);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const login = (data) => {
-    console.log(data);
-  };
-
   return (
     <>
       <Style.PageContainer>
         <Styled.LoginForm onSubmit={handleSubmit(login)}>
           <Styled.FormColumn>
-            <Styled.FormTitle>Login</Styled.FormTitle>
+            <Styled.FormTitle>Login into S.T.E-Timer</Styled.FormTitle>
           </Styled.FormColumn>
 
           <Styled.FormColumn>

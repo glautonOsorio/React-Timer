@@ -20,7 +20,7 @@ export const LoginForm = styled.form`
   border: none;
   text-align: center;
   border-radius: 1rem;
-  background: #fff0f5;
+  background: #800080;
   z-index: 1;
 
   @media (max-width: 1024px) {
@@ -69,7 +69,7 @@ export const FormRow = styled.div`
 `;
 
 export const FormTitle = styled.legend`
-  color: #000;
+  color: #fff0f5;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;

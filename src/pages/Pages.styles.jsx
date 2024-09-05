@@ -37,11 +37,12 @@ export const PageGrid = styled.div`
   }
 `;
 
-export const Span = styled.span`
-  font-weight: 900;
-  font-size: 4rem;
+export const PageTittle = styled.h1`
+  font-weight: 700;
+  font-size: 5rem;
   margin-bottom: 0.6rem;
-  color: "#000";
+  font-family: "Pacifico", cursive;
+  color: #800080;
   display: block;
 
   @media (max-width: 768px) {
